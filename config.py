@@ -81,7 +81,8 @@ if 'DYNO' in environ:
 else:
     ON_HEROKU = False
 URL = environ.get("URL", "https://testofvjfilter-1fa60b1b8498.herokuapp.com/")
-
+URL = environ.get("URL", "https://vj-file-store-1-xnna.onrender.com")
+URL = environ.get("URL", "https://vj-file-store-1-xnna.onrender.com")
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
